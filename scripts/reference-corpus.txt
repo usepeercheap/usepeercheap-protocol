@@ -1,0 +1,34 @@
+P2P | Peer to Peer trading for Solana memecoins
+Make an offer on anyone's memecoin bag, or sell yours whole, without nuking the chart. Peer to peer, over-the-counter trading on Solana.
+P2P. Trade the bag, not the chart.
+P2P Home Offers History Positions Make offer Bags Add a bag Information Docs Risk p2pventures p2p.ventures
+P2P / Home Connect wallet
+Trade the bag, not the chart.
+Make an offer on anyone's memecoin bag, or sell yours whole. Every offer is approved by the wallet behind it and checked against its on-chain balance, so size changes hands without a single candle on the chart.
+MARKETS OPEN OFFERS SOL BIDDING SOL ASKED CHART IMPACT
+Get started
+Make an offer
+Look up any wallet
+Sell $100K of
+Wallet to wallet · trending now
+Signing
+✓ Settled
+Holder
+Buyer
+Chart impact
+Same size into the pool
+Holding a coin we don't list?
+Add it in one tap and anyone can start bidding on it.
+Add a bag
+Markets
+No open offers yet. Make the first one
+Sort
+Mkt cap
+24h volume
+24h change
+Holders
+Offers
+# COIN PRICE 24H MKT CAP VOLUME LIQUIDITY HOLDERS BEST BID BEST ASK OFFERS
+Make offer
+Previous
+Next

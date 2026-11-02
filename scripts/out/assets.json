@@ -1,0 +1,936 @@
+{
+  "brand\\LOGO PEER JPG.jpg.jpeg": {
+    "bytes": 173087,
+    "magic": "ffd8ffe0",
+    "decoded": {
+      "w": 2000,
+      "h": 2000,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4000000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 527548,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.9232
+      },
+      {
+        "centroid": [
+          240,
+          241,
+          234
+        ],
+        "count": 42417,
+        "snapped": {
+          "x": 992,
+          "y": 620,
+          "hex": "#f0f1ea"
+        },
+        "share": 0.0742
+      },
+      {
+        "centroid": [
+          153,
+          153,
+          149
+        ],
+        "count": 590,
+        "snapped": {
+          "x": 1054,
+          "y": 639,
+          "hex": "#999995"
+        },
+        "share": 0.001
+      },
+      {
+        "centroid": [
+          72,
+          72,
+          71
+        ],
+        "count": 461,
+        "snapped": {
+          "x": 965,
+          "y": 625,
+          "hex": "#484846"
+        },
+        "share": 0.0008
+      },
+      {
+        "centroid": [
+          25,
+          25,
+          24
+        ],
+        "count": 413,
+        "snapped": {
+          "x": 1034,
+          "y": 624,
+          "hex": "#191919"
+        },
+        "share": 0.0007
+      }
+    ]
+  },
+  "brand\\LOGO PEER PNG...png": {
+    "bytes": 171320,
+    "magic": "89504e47",
+    "ihdr": {
+      "width": 2000,
+      "height": 2000,
+      "bitDepth": 8,
+      "colorType": 6,
+      "interlace": 0
+    },
+    "decoded": {
+      "w": 2000,
+      "h": 2000,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      3694909,
+      1867,
+      1503,
+      1214,
+      1359,
+      1431,
+      1867,
+      295850
+    ],
+    "pureBlackTransparentPx": 3690129,
+    "palette": [
+      {
+        "centroid": [
+          240,
+          241,
+          234
+        ],
+        "count": 14936,
+        "snapped": {
+          "x": 982,
+          "y": 627,
+          "hex": "#f0f1ea"
+        },
+        "share": 0.3479
+      },
+      {
+        "centroid": [
+          241,
+          242,
+          235
+        ],
+        "count": 14421,
+        "snapped": {
+          "x": 1007,
+          "y": 621,
+          "hex": "#f1f2eb"
+        },
+        "share": 0.3359
+      },
+      {
+        "centroid": [
+          241,
+          241,
+          235
+        ],
+        "count": 10967,
+        "snapped": {
+          "x": 1007,
+          "y": 620,
+          "hex": "#f1f1eb"
+        },
+        "share": 0.2555
+      },
+      {
+        "centroid": [
+          240,
+          242,
+          234
+        ],
+        "count": 2139,
+        "snapped": {
+          "x": 1014,
+          "y": 621,
+          "hex": "#f0f2ea"
+        },
+        "share": 0.0498
+      },
+      {
+        "centroid": [
+          241,
+          242,
+          234
+        ],
+        "count": 468,
+        "snapped": {
+          "x": 1015,
+          "y": 622,
+          "hex": "#f1f2ea"
+        },
+        "share": 0.0109
+      }
+    ]
+  },
+  "brand\\LOGO PEER PNG.png": {
+    "bytes": 325161,
+    "magic": "89504e47",
+    "ihdr": {
+      "width": 2000,
+      "height": 2000,
+      "bitDepth": 8,
+      "colorType": 6,
+      "interlace": 0
+    },
+    "decoded": {
+      "w": 2000,
+      "h": 2000,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4000000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 527546,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.9232
+      },
+      {
+        "centroid": [
+          240,
+          241,
+          235
+        ],
+        "count": 42411,
+        "snapped": {
+          "x": 992,
+          "y": 620,
+          "hex": "#f0f1eb"
+        },
+        "share": 0.0742
+      },
+      {
+        "centroid": [
+          153,
+          154,
+          150
+        ],
+        "count": 593,
+        "snapped": {
+          "x": 1290,
+          "y": 869,
+          "hex": "#999a96"
+        },
+        "share": 0.001
+      },
+      {
+        "centroid": [
+          73,
+          73,
+          72
+        ],
+        "count": 456,
+        "snapped": {
+          "x": 951,
+          "y": 634,
+          "hex": "#494948"
+        },
+        "share": 0.0008
+      },
+      {
+        "centroid": [
+          25,
+          25,
+          25
+        ],
+        "count": 423,
+        "snapped": {
+          "x": 1034,
+          "y": 624,
+          "hex": "#191919"
+        },
+        "share": 0.0007
+      }
+    ]
+  },
+  "reference\\PEER 1.jpg.jpeg": {
+    "bytes": 102113,
+    "magic": "ffd8ffe0",
+    "decoded": {
+      "w": 1600,
+      "h": 900,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 135660,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.6595
+      },
+      {
+        "centroid": [
+          4,
+          4,
+          4
+        ],
+        "count": 35085,
+        "snapped": {
+          "x": 214,
+          "y": 16,
+          "hex": "#040404"
+        },
+        "share": 0.1706
+      },
+      {
+        "centroid": [
+          231,
+          231,
+          231
+        ],
+        "count": 22186,
+        "snapped": {
+          "x": 232,
+          "y": 28,
+          "hex": "#e7e7e7"
+        },
+        "share": 0.1078
+      },
+      {
+        "centroid": [
+          32,
+          32,
+          32
+        ],
+        "count": 8627,
+        "snapped": {
+          "x": 196,
+          "y": 18,
+          "hex": "#202020"
+        },
+        "share": 0.0419
+      },
+      {
+        "centroid": [
+          95,
+          94,
+          94
+        ],
+        "count": 4157,
+        "snapped": {
+          "x": 90,
+          "y": 30,
+          "hex": "#5e5e5e"
+        },
+        "share": 0.0202
+      }
+    ]
+  },
+  "reference\\PEER 2.jpg.jpeg": {
+    "bytes": 101467,
+    "magic": "ffd8ffe0",
+    "decoded": {
+      "w": 1600,
+      "h": 900,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 136965,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.6658
+      },
+      {
+        "centroid": [
+          4,
+          4,
+          4
+        ],
+        "count": 34824,
+        "snapped": {
+          "x": 214,
+          "y": 16,
+          "hex": "#040404"
+        },
+        "share": 0.1693
+      },
+      {
+        "centroid": [
+          231,
+          231,
+          231
+        ],
+        "count": 21511,
+        "snapped": {
+          "x": 232,
+          "y": 28,
+          "hex": "#e7e7e7"
+        },
+        "share": 0.1046
+      },
+      {
+        "centroid": [
+          32,
+          32,
+          31
+        ],
+        "count": 8286,
+        "snapped": {
+          "x": 196,
+          "y": 18,
+          "hex": "#202020"
+        },
+        "share": 0.0403
+      },
+      {
+        "centroid": [
+          93,
+          92,
+          92
+        ],
+        "count": 4129,
+        "snapped": {
+          "x": 216,
+          "y": 20,
+          "hex": "#5c5c5c"
+        },
+        "share": 0.0201
+      }
+    ]
+  },
+  "reference\\PEER 3.jpg.jpeg": {
+    "bytes": 98201,
+    "magic": "ffd8ffe0",
+    "decoded": {
+      "w": 1600,
+      "h": 900,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 87421,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.425
+      },
+      {
+        "centroid": [
+          2,
+          2,
+          2
+        ],
+        "count": 85868,
+        "snapped": {
+          "x": 193,
+          "y": 8,
+          "hex": "#020202"
+        },
+        "share": 0.4174
+      },
+      {
+        "centroid": [
+          229,
+          229,
+          229
+        ],
+        "count": 19998,
+        "snapped": {
+          "x": 248,
+          "y": 24,
+          "hex": "#e5e5e5"
+        },
+        "share": 0.0972
+      },
+      {
+        "centroid": [
+          30,
+          29,
+          29
+        ],
+        "count": 7911,
+        "snapped": {
+          "x": 249,
+          "y": 25,
+          "hex": "#1d1d1d"
+        },
+        "share": 0.0385
+      },
+      {
+        "centroid": [
+          87,
+          87,
+          87
+        ],
+        "count": 4517,
+        "snapped": {
+          "x": 194,
+          "y": 15,
+          "hex": "#575757"
+        },
+        "share": 0.022
+      }
+    ]
+  },
+  "reference\\PEER 4.jpg.jpeg": {
+    "bytes": 105843,
+    "magic": "ffd8ffe0",
+    "decoded": {
+      "w": 1600,
+      "h": 900,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 136569,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.6639
+      },
+      {
+        "centroid": [
+          4,
+          4,
+          4
+        ],
+        "count": 34513,
+        "snapped": {
+          "x": 214,
+          "y": 16,
+          "hex": "#040404"
+        },
+        "share": 0.1678
+      },
+      {
+        "centroid": [
+          231,
+          231,
+          231
+        ],
+        "count": 21863,
+        "snapped": {
+          "x": 232,
+          "y": 28,
+          "hex": "#e7e7e7"
+        },
+        "share": 0.1063
+      },
+      {
+        "centroid": [
+          32,
+          32,
+          32
+        ],
+        "count": 8636,
+        "snapped": {
+          "x": 196,
+          "y": 18,
+          "hex": "#202020"
+        },
+        "share": 0.042
+      },
+      {
+        "centroid": [
+          95,
+          95,
+          94
+        ],
+        "count": 4134,
+        "snapped": {
+          "x": 290,
+          "y": 28,
+          "hex": "#5f5f5f"
+        },
+        "share": 0.0201
+      }
+    ]
+  },
+  "reference\\PEER 5.jpg.jpeg": {
+    "bytes": 108827,
+    "magic": "ffd8ffe0",
+    "decoded": {
+      "w": 1600,
+      "h": 900,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 135680,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.6596
+      },
+      {
+        "centroid": [
+          4,
+          4,
+          4
+        ],
+        "count": 34191,
+        "snapped": {
+          "x": 214,
+          "y": 16,
+          "hex": "#040404"
+        },
+        "share": 0.1662
+      },
+      {
+        "centroid": [
+          232,
+          232,
+          232
+        ],
+        "count": 22756,
+        "snapped": {
+          "x": 172,
+          "y": 26,
+          "hex": "#e8e8e8"
+        },
+        "share": 0.1106
+      },
+      {
+        "centroid": [
+          32,
+          32,
+          32
+        ],
+        "count": 8951,
+        "snapped": {
+          "x": 196,
+          "y": 18,
+          "hex": "#202020"
+        },
+        "share": 0.0435
+      },
+      {
+        "centroid": [
+          97,
+          96,
+          96
+        ],
+        "count": 4137,
+        "snapped": {
+          "x": 194,
+          "y": 14,
+          "hex": "#606060"
+        },
+        "share": 0.0201
+      }
+    ]
+  },
+  "reference\\PEER 6.jpg.jpeg": {
+    "bytes": 106986,
+    "magic": "ffd8ffe0",
+    "decoded": {
+      "w": 1600,
+      "h": 900,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 136534,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.6637
+      },
+      {
+        "centroid": [
+          4,
+          4,
+          4
+        ],
+        "count": 34567,
+        "snapped": {
+          "x": 214,
+          "y": 16,
+          "hex": "#040404"
+        },
+        "share": 0.168
+      },
+      {
+        "centroid": [
+          231,
+          231,
+          231
+        ],
+        "count": 21764,
+        "snapped": {
+          "x": 232,
+          "y": 28,
+          "hex": "#e7e7e7"
+        },
+        "share": 0.1058
+      },
+      {
+        "centroid": [
+          32,
+          32,
+          32
+        ],
+        "count": 8689,
+        "snapped": {
+          "x": 196,
+          "y": 18,
+          "hex": "#202020"
+        },
+        "share": 0.0422
+      },
+      {
+        "centroid": [
+          95,
+          95,
+          94
+        ],
+        "count": 4161,
+        "snapped": {
+          "x": 290,
+          "y": 28,
+          "hex": "#5f5f5f"
+        },
+        "share": 0.0202
+      }
+    ]
+  },
+  "reference\\SAMPUL PEER JPG.jpg.jpeg": {
+    "bytes": 257822,
+    "magic": "ffd8ffe0",
+    "decoded": {
+      "w": 1500,
+      "h": 500,
+      "channels": 4
+    },
+    "alphaHistogram8bins": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      750000
+    ],
+    "pureBlackTransparentPx": 0,
+    "palette": [
+      {
+        "centroid": [
+          0,
+          0,
+          0
+        ],
+        "count": 74539,
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        },
+        "share": 0.6957
+      },
+      {
+        "centroid": [
+          219,
+          217,
+          214
+        ],
+        "count": 11740,
+        "snapped": {
+          "x": 1225,
+          "y": 149,
+          "hex": "#dbd9d6"
+        },
+        "share": 0.1096
+      },
+      {
+        "centroid": [
+          10,
+          10,
+          9
+        ],
+        "count": 10706,
+        "snapped": {
+          "x": 1211,
+          "y": 58,
+          "hex": "#0a0a0a"
+        },
+        "share": 0.0999
+      },
+      {
+        "centroid": [
+          27,
+          27,
+          27
+        ],
+        "count": 8014,
+        "snapped": {
+          "x": 1211,
+          "y": 72,
+          "hex": "#1b1b1b"
+        },
+        "share": 0.0748
+      },
+      {
+        "centroid": [
+          91,
+          90,
+          90
+        ],
+        "count": 2144,
+        "snapped": {
+          "x": 1184,
+          "y": 175,
+          "hex": "#5a5a5a"
+        },
+        "share": 0.02
+      }
+    ]
+  }
+}

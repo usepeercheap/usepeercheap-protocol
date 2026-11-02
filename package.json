@@ -1,0 +1,17 @@
+{
+  "name": "peer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PEER, a holder-to-holder board for Solana tokens",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "gates": "node scripts/gates.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
+  }
+}

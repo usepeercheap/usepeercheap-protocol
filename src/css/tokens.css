@@ -1,0 +1,46 @@
+/*
+  Colour provenance. Every literal below is a real pixel read from a project asset.
+  Method: k-means (k=5) over opaque pixels, each centroid snapped to the nearest real pixel coordinate.
+  Format of the trailing note: asset @ x,y. The gate re-reads each pixel and compares.
+  The brand mark carries no hue: it is black and one off-white. Hue-free is therefore the identity.
+*/
+:root {
+  --color-bg: #000000; /* brand/LOGO PEER PNG.png @ 0,0 */
+  --color-panel: #0a0a0a; /* reference/SAMPUL PEER JPG.jpg.jpeg @ 1211,58 */
+  --color-wash: #1b1b1b; /* reference/SAMPUL PEER JPG.jpg.jpeg @ 1211,72 */
+  --color-line-soft: #191919; /* brand/LOGO PEER PNG.png @ 1034,624 */
+  --color-line: #202020; /* reference/PEER 2.jpg.jpeg @ 196,18 */
+  --color-line-strong: #494948; /* brand/LOGO PEER PNG.png @ 951,634 */
+  --color-faint: #5a5a5a; /* reference/SAMPUL PEER JPG.jpg.jpeg @ 1184,175 */
+  --color-mute: #999a96; /* brand/LOGO PEER PNG.png @ 1290,869 */
+  --color-ink-70: #dbd9d6; /* reference/SAMPUL PEER JPG.jpg.jpeg @ 1225,149 */
+  --color-ink: #f0f1eb; /* brand/LOGO PEER PNG.png @ 992,620 */
+
+  /* Role aliases, no new literals */
+  --color-mint: var(--color-ink);
+  --color-up: var(--color-ink);
+  --color-down: var(--color-mute);
+
+  /* Geometry, measured from the reference at 1440 */
+  --sidebar-w: 236px;
+  --header-h: 60px;
+  --main-max: 1280px;
+  --hero-aside: 400px;
+  --tap: 44px;
+
+  /* Motion, measured from the reference stylesheet */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-std: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-pulse: cubic-bezier(0.4, 0, 0.6, 1);
+  --dur-fast: 150ms;
+  --dur-base: 200ms;
+  --dur-slow: 300ms;
+  --dur-enter: 500ms;
+  --dur-shimmer: 1400ms;
+  --dur-ping: 1600ms;
+  --dur-marquee: 70s;
+  --dur-cycle: 5200ms;
+
+  --font-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}

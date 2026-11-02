@@ -1,0 +1,53 @@
+{
+  "records": {
+    "chain": {
+      "label": "Chain",
+      "state": "stated",
+      "value": "Solana",
+      "rpc": "https://solana-rpc.publicnode.com",
+      "source": "client statement",
+      "scope": "batch-level",
+      "stamp": "2026-11-02"
+    },
+    "ca": {
+      "label": "Contract address",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "stamp": "2026-11-02"
+    },
+    "x": {
+      "label": "X",
+      "state": "stated",
+      "url": "https://x.com/peercheap",
+      "source": "client statement",
+      "scope": "batch-level",
+      "stamp": "2026-11-02"
+    },
+    "github": {
+      "label": "GitHub",
+      "state": "absent",
+      "source": "client statement",
+      "scope": "batch-level",
+      "stamp": "2026-11-02"
+    },
+    "market": {
+      "label": "Market feed",
+      "state": "stated",
+      "url": "https://api.dexscreener.com/token-boosts/top/v1",
+      "pairsUrl": "https://api.dexscreener.com/tokens/v1/solana/{addresses}",
+      "source": "client statement",
+      "scope": "batch-level",
+      "stamp": "2026-11-02"
+    },
+    "own": {
+      "label": "Own token feed",
+      "state": "stated",
+      "url": "https://api.dexscreener.com/latest/dex/tokens/{ca}",
+      "imageUrl": "https://frontend-api.pump.fun/coins/{ca}",
+      "source": "client statement",
+      "scope": "batch-level",
+      "stamp": "2026-11-02"
+    }
+  }
+}

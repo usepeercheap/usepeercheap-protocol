@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PEER | Every asset has its value</title>
+<meta name="description" content="A board for holders of Solana tokens. Watch the busiest markets live and settle positions straight between wallets.">
+<meta name="theme-color" content="{{COLOR_BG}}">
+<meta property="og:title" content="PEER | Every asset has its value">
+<meta property="og:description" content="Claim your position. A live board for people who hold Solana tokens.">
+<meta property="og:url" content="https://peer.cheap">
+<meta property="og:image" content="https://peer.cheap/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="assets/logo-180.png">
+<link rel="preload" href="fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/app.css">
+<script>document.documentElement.className = 'js';</script>
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<script type="application/json" id="register">{{REGISTER_JSON}}</script>
+
+<div class="shell">
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="sidebar" id="sidebar" aria-label="Site">
+    <a class="brand" href="#top" aria-label="PEER home"><img src="assets/logo-192.png" width="28" height="28" alt=""><span>PEER</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a class="nav-link is-active" href="#top" data-nav="top"><span class="ni">{{ICON_overview}}</span>Overview</a>
+      <a class="nav-link" href="#board" data-nav="board"><span class="ni">{{ICON_board}}</span>Board</a>
+      <a class="nav-link" href="#token" data-nav="token"><span class="ni">{{ICON_token}}</span>Token</a>
+      <a class="nav-link" href="#flow" data-nav="flow"><span class="ni">{{ICON_flow}}</span>Flow</a>
+      <a class="nav-link" href="#plan" data-nav="plan"><span class="ni">{{ICON_plan}}</span>Plan</a>
+    </nav>
+    <div class="side-foot">peer.cheap</div>
+  </aside>
+
+  <div class="col">
+    <header class="topbar">
+      <button class="icon-btn menu-btn" id="menu" type="button" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">{{ICON_menu}}</button>
+      <div class="crumbs"><a href="#top">PEER</a><span class="sep">/</span><span class="here" id="crumb">Overview</span></div>
+      <div class="top-right">
+        <span class="status" id="status" data-state="loading" role="status"><span class="live-dot" aria-hidden="true"></span><span class="status-text" id="status-text">Connecting</span></span>
+        <div class="socials" data-slot="social">{{SOCIAL}}</div>
+      </div>
+    </header>
+
+    <div class="ca-bar" data-slot="ca">{{CA}}</div>
+    <span class="sr-only" id="live" aria-live="polite"></span>
+
+    <section class="ticker" aria-label="Live ticker">
+      <div class="marquee" id="marquee"><div class="marquee-track" id="marquee-track"><span class="tick skeleton" aria-hidden="true">&nbsp;</span></div></div>
+    </section>
+
+    <main class="main" id="main">
+      <section class="hero" id="top" data-spot data-parallax>
+        <div class="hero-bg" aria-hidden="true">
+          <div class="mesh m1" data-depth="0.5"></div>
+          <div class="mesh m2" data-depth="0.9"></div>
+          <div class="mesh m3" data-depth="0.3"></div>
+          <img class="hero-mark" data-depth="1.2" src="brand/peer-logo.png" alt="">
+          <div class="grid-lines" data-depth="0.2"></div>
+        </div>
+        <div class="hero-copy">
+          <h1 data-reveal>Every asset has its value.<br><span>Claim your position.</span></h1>
+          <p class="lede" data-reveal>A board for holders of Solana tokens. See where the money is moving right now, then settle positions straight between wallets instead of through a pool.</p>
+          <dl class="tiles" data-reveal>
+            <div class="tile"><dt class="label">Tokens tracked</dt><dd class="tnum" id="t-count">—</dd></div>
+            <div class="tile"><dt class="label">Combined volume</dt><dd class="tnum" id="t-vol">—</dd></div>
+            <div class="tile"><dt class="label">Combined liquidity</dt><dd class="tnum" id="t-liq">—</dd></div>
+            <div class="tile"><dt class="label">Top mover</dt><dd class="tnum" id="t-top">—</dd></div>
+            <div class="tile"><dt class="label">PEER price</dt><dd class="tnum" id="t-own">pending</dd></div>
+          </dl>
+          <div class="cta" data-reveal>
+            <a class="btn btn-solid" href="#board">Open the board <span class="btn-ic">{{ICON_arrow}}</span></a>
+            <a class="btn btn-line" href="#token">Find the token <span class="btn-ic">{{ICON_arrow}}</span></a>
+            <a class="btn-text" href="#plan">Read the plan</a>
+          </div>
+        </div>
+
+        <div class="hero-aside" data-reveal>
+          <div class="ticket" id="ticket" data-spot>
+            <div class="ticket-head">
+              <div class="ticket-title"><div class="tt" id="tk-title">Handoff · —</div><div class="ts">Holder to holder, no pool</div></div>
+              <span class="pill"><span class="pill-a"><span class="dot"></span> Signing</span><span class="pill-b">✓ Settled</span></span>
+            </div>
+            <div class="lanes">
+              <div class="party"><div class="party-h"><span class="pi" id="tk-logo-l"></span>Holder</div><div class="party-v" id="tk-sym">—</div></div>
+              <div class="lane-mid" aria-hidden="true"><span class="rail r1"></span><span class="rail r2"></span><span class="runner run-r" id="tk-run-r"></span><span class="runner run-l" id="tk-run-l"></span></div>
+              <div class="party"><div class="party-h"><span class="pi pi-ink"></span>Buyer</div><div class="party-v">USD</div></div>
+            </div>
+            <div class="ticket-foot">
+              <div><div class="label">24h move</div><div class="tnum big" id="tk-chg">—</div></div>
+              <div><div class="label">Volume</div><div class="tnum big" id="tk-vol">—</div></div>
+            </div>
+          </div>
+          <div class="chips" id="chips" role="group" aria-label="Pick a token for the preview"></div>
+        </div>
+      </section>
+
+      <a class="strip" href="#board" data-reveal>
+        <span class="strip-h">Slot one is reserved.</span>
+        <span class="strip-t">It lights up the moment the contract address goes public.</span>
+        <span class="strip-a">Jump to board <span class="btn-ic">{{ICON_arrow}}</span></span>
+      </a>
+
+      <section class="section" id="board" data-section>
+        <div class="sec-head" data-reveal>
+          <div><h2>Market board</h2><p class="sub" id="board-sub">Busiest tokens first, straight from the public feed.</p></div>
+          <div class="sort" role="group" aria-label="Order rows">
+            <span class="label">Order by</span>
+            <button class="seg is-on" type="button" data-sort="volume" aria-pressed="true">Volume</button>
+            <button class="seg" type="button" data-sort="change" aria-pressed="false">Move</button>
+            <button class="seg" type="button" data-sort="liquidity" aria-pressed="false">Liquidity</button>
+            <button class="seg" type="button" data-sort="price" aria-pressed="false">Price</button>
+          </div>
+        </div>
+        <div class="board" id="board-table" role="table" aria-label="Market board">
+          <div class="row head" role="row">
+            <span class="c-rank" role="columnheader">#</span>
+            <span class="c-token" role="columnheader">Token</span>
+            <span class="c-price" role="columnheader">Price</span>
+            <span class="c-chg" role="columnheader">24h</span>
+            <span class="c-vol" role="columnheader">Volume</span>
+            <span class="c-liq" role="columnheader">Liquidity</span>
+            <span class="c-act" role="columnheader"><span class="sr-only">Copy</span></span>
+          </div>
+          <div id="rows" role="rowgroup"></div>
+        </div>
+        <p class="board-note" id="board-note" hidden></p>
+      </section>
+
+      <section class="section" id="token" data-section>
+        <div class="sec-head" data-reveal><div><h2>The PEER token</h2><p class="sub">One chain, one contract. Anything not yet announced stays greyed out.</p></div></div>
+        <div class="panel records" data-spot data-reveal role="table" aria-label="Token facts" data-slot="records">{{RECORDS}}</div>
+      </section>
+
+      <section class="section" id="flow" data-section>
+        <div class="sec-head" data-reveal><div><h2>How it moves</h2><p class="sub">Four beats from first look to final handoff.</p></div></div>
+        <div class="cards cards-4">
+          <article class="card" data-spot data-reveal><h3>Watch</h3><p>The board ranks the busiest tokens and refreshes every minute.</p></article>
+          <article class="card" data-spot data-reveal><h3>Pick</h3><p>Choose a token and copy its address with one press.</p></article>
+          <article class="card" data-spot data-reveal><h3>Meet</h3><p>Reach the holder across from you through the channels listed in the token panel.</p></article>
+          <article class="card" data-spot data-reveal><h3>Settle</h3><p>Each side approves the handoff from their own wallet.</p></article>
+        </div>
+        <div class="cards cards-3">
+          <article class="card" data-spot data-reveal><h3>Size without noise</h3><p>Large positions change hands quietly, away from the order book.</p></article>
+          <article class="card" data-spot data-reveal><h3>Direct counterparties</h3><p>You deal with a person, not a pool, and agree terms between you.</p></article>
+          <article class="card" data-spot data-reveal><h3>Open facts only</h3><p>Every link and address on this page comes from one list of confirmed facts.</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="plan" data-section>
+        <div class="sec-head" data-reveal><div><h2>Plan</h2><p class="sub">Four phases, one at a time.</p></div></div>
+        <div class="tabs" data-reveal>
+          <div class="tablist" role="tablist" aria-label="Phases">
+            <button class="tab is-on" role="tab" id="tab-1" aria-controls="panel-1" aria-selected="true" type="button">Foundation</button>
+            <button class="tab" role="tab" id="tab-2" aria-controls="panel-2" aria-selected="false" tabindex="-1" type="button">Launch</button>
+            <button class="tab" role="tab" id="tab-3" aria-controls="panel-3" aria-selected="false" tabindex="-1" type="button">Matching</button>
+            <button class="tab" role="tab" id="tab-4" aria-controls="panel-4" aria-selected="false" tabindex="-1" type="button">Depth</button>
+          </div>
+          <div class="tabpanel panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1" data-spot><h3>Foundation</h3><p>Public site, live board, and a reserved first slot for the token. Brand and community channels get set up.</p></div>
+          <div class="tabpanel panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2" data-spot hidden><h3>Launch</h3><p>The contract address goes public, slot one switches on, and the official links are connected.</p></div>
+          <div class="tabpanel panel" role="tabpanel" id="panel-3" aria-labelledby="tab-3" data-spot hidden><h3>Matching</h3><p>A simple way for holders to post and answer requests, with every transfer needing sign-off from the wallets involved.</p></div>
+          <div class="tabpanel panel" role="tabpanel" id="panel-4" aria-labelledby="tab-4" data-spot hidden><h3>Depth</h3><p>Wider coverage, richer holder views, and tooling built for larger positions.</p></div>
+        </div>
+      </section>
+
+      <footer class="foot">
+        <div class="foot-l"><img src="assets/logo-192.png" width="24" height="24" alt=""><span>PEER</span><span class="faint">peer.cheap</span></div>
+        <p class="foot-r">Figures come from public third-party feeds and may be late or wrong. Nothing here is financial advice.</p>
+      </footer>
+    </main>
+  </div>
+</div>
+<script type="module" src="js/app.js"></script>
+<noscript><style>[data-reveal]{opacity:1!important}</style></noscript>
+</body>
+</html>
